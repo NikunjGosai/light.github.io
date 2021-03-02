@@ -9,18 +9,19 @@
 	.img-detail1 img{margin-left: 15px;}
     .detail{padding-bottom: 15px;}
 	.menu{padding-top: 10px;padding-bottom: 10px;line-height:30px;}
-	.menu1{padding-top: 10px;padding-bottom: 10px;float:left;}
-	.menu-bar ul li a{float:left;font-size: 10px;}
+	.menu1{padding-top: 10px;padding-bottom: 10px;text-align: center;}
+	.menu-bar{margin-left: 0px;}
+	.menu-bar ul li a{font-size: 13px;margin-left: 38px;}
 	.abt-sumire img{margin-top: -42px;}
 	.sumire2{padding-top: 32px;}
 	.circle{width: 50px;height:50px;background:#ffc903;border-radius: 28px;float: left;font-size: 28px;text-align: center;line-height: 57px;}
     .content{position: relative;padding-top:0px;}
-    .content1{line-height: 14px;}
+    .content1{font-size:14px;line-height: 18px;}
 	.content2{position: absolute;left: 10px;}
 	.best1{position: absolute;left: 14px;}
 	.content3{position: absolute;left: 14px;line-height: 10px;}
 	.appoint1{margin-left: 105px;position: relative;}
-	.appoint1 img{width:30px;height:20px;float: left;position: absolute;left: 0px;top: 35px;margin-left: 15px;}
+	.appoint1 img{width:24px;height:20px;float: left;position: absolute;left: 0px;top: 35px;margin-left: 23px;}
     .appoint2{margin-left: 240px;padding-top: 10px;}
     .list li {margin-left: 10px;}
     .address img{margin-left: 5px;}
@@ -31,63 +32,61 @@
     .header{position: absolute;left: 30px;top: 52px}
     .para2{position: absolute;left: 225px;top: 23px;}
     .email{position: relative;}
-    .img3{position: absolute;right: 477px;top: 31px;}
+    .img3{position: absolute;right: 486px;top: 32px;}
     .email .header1{text-align: left;}
     .para3{}
     .wrapper2{background-color: black;padding-top:65px;padding-bottom:80px;}
     .social{position: relative;}
-    .social2{position: absolute;left: 10px;}
-    .images img{margin-left: 5px;}
+    .social2{position: absolute;right: 810px;}
+    .social2 h4{float: left;}
+    .images{float: left;margin-top: -29px;}
+    .images img{margin-left: 5px;float: left;}
     .copyright p{padding-top: 10px;}
 }
-	/*.questions1{text-align: center;}
-	.circle1{width: 50px;height: 50px;}
 	
-	.appoint2{padding-top:0px;}
-	.box{position: absolute;right: 0px;}
-	.address{position: relative;}
-	.address h4{position: absolute;left: 29px;top: 6px;}
-	.para1{margin-left: 10px;position:absolute;right:151px;bottom: -42px;}
-	.phone{position: relative;}
-	.img2{position: absolute;left: 0px;top:56px;}
-	.header{position: absolute;left: 30px;top:58px;}
-	.para2{position: absolute;left: 225px;top: 28px;}
-	.email{position: relative;margin-left: -30px;padding-top: 112px;}
-	.img3{position: absolute;left: 0px;top: 44px;}
-	.header1{position: absolute;left: 32px;top: 47px;}
-	.para3{position: absolute;left: 202px;top: 17px;}
-    .social1{padding-left: 2px;}*/
-}
-
-@media screen and (min-width:576px) and (max-width:767px){
-    
-    .questions1{text-align: center;}
-    .image{margin-left:10px;}
-}	
 
 @media screen and (max-width:575px){
-	.col-11{text-align: center;}
+	.questions1{text-align: center;margin-left: 30px;}
 	.image{padding-bottom: 10px;}
 	.email1{position: relative;}
-	.image1 img{position: absolute;top:4px;left: 0px;}
-	.image1 span{position: absolute;left:19px;}
+	.image1 img{position: absolute;top:3px;left: 35px;}
+	.image1 span{position: absolute;left:56px;}
 	.email1{position: relative;}
-	.img-detail1{position: absolute;right: 6px;}
-	.img-detail1 img{margin-left: 10px;}
+	.img-detail1{position: absolute;right: 90px;}
+	.img-detail1 img{margin-left: 16px;}
     .detail{padding-bottom: 15px;}
 	.menu{padding-top: 10px;padding-bottom: 10px;line-height:30px;}
 	.menu1{text-align: center;padding-top: 10px;padding-bottom: 10px;}
-	.menu2 li a{font-size: 9px;}
+	.menu2 li a{font-size: 12px;margin-left: 22px;}
 	.abt-sumire img{margin-top: -42px;}
 	.sumire2{padding-top: 32px;}
 	.circle{width: 50px;height:50px;background:#ffc903;border-radius: 28px;float: left;font-size: 28px;text-align: center;line-height: 57px;}
     .content{position: relative;padding-top:0px;}
-    .content1{line-height: 14px;}
+    .content1{font-size:14px;line-height: 18px;}
 	.content2{position: absolute;left: 10px;}
 	.best1{position: absolute;left: 14px;}
 	.content3{position: absolute;left: 14px;line-height: 10px;}
 	.appoint1{margin-left: 30px;position: relative;}
-	.appoint1 img{position: absolute;left: -12px;}
-    .appoint2{margin-left: 75px;padding-top: 10px;}
+	.appoint1 img{width: 24px;margin-left: 24px;}
+    .appoint2{margin-left: 165px;padding-top: 10px;}
+    .list li {margin-left: 10px;}
+    .address img{margin-left: 5px;}
+    .address h4{float: left;margin-left: 14px;font-size: 22px;font-weight: 600;line-height: 40px;}
+    .address p{margin-left: 6px;font-size: 13px;color: #e2e0e0;margin-top: 7px;}
+    .phone{position: relative;}
+    .img2{position: absolute;left: 5px;top: 50px;}
+    .header{position: absolute;left: 30px;top: 52px}
+    .para2{position: absolute;left: 225px;top: 23px;}
+    .email{position: relative;}
+    .img3{position: absolute;right: 458px;top: 31px;}
+    .email .header1{text-align: left;}
+    .para3{}
+    .wrapper2{background-color: black;padding-top:65px;padding-bottom:80px;}
+    .social{position: relative;}
+    .social2{position: absolute;right: 810px;}
+    .social2 h4{float: left;}
+    .images{float: left;margin-top: -29px;}
+    .images img{margin-left: 5px;float: left;}
+    .copyright p{padding-top: 10px;}
 }
 
