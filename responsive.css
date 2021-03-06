@@ -1,17 +1,19 @@
-@media screen and (min-width: 768px) and (max-width: 991px){
-	.col-11{text-align: center;}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.imge{text-align: center;margin-left: 200px;}
+    
 	.image{padding-bottom: 10px;}
 	.email1{position: relative;}
-	.image1 img{position: absolute;top:4px;left: 72px;}
-	.image1 span{position: absolute;left:95px;}
+	.image1 img{position: absolute;top:4px;left: 85px;}
+	.image1 span{position: absolute;left:105px;}
 	.email1{position: relative;}
-	.img-detail1{position: absolute;right: 205px;}
+	/* .img-detail1{position: absolute;right: 180px;} */
+    .img-detail1{margin: 0 300px;}
 	.img-detail1 img{margin-left: 15px;}
     .detail{padding-bottom: 15px;}
-	.menu{padding-top: 10px;padding-bottom: 10px;line-height:30px;}
-	.menu1{padding-top: 10px;padding-bottom: 10px;text-align: center;}
+	.menu{;padding-top: 10px;padding-bottom: 10px;line-height:30px;}
+	.menu1{text-align:center; 10px;padding-bottom: 10px;}
 	.menu-bar{margin-left: 0px;}
-	.menu-bar ul li a{font-size: 13px;margin-left: 38px;}
+	.menu-bar li a{font-size: 10px;margin-left: 45px;}
 	.abt-sumire img{margin-top: -42px;}
 	.sumire2{padding-top: 32px;}
 	.circle{width: 50px;height:50px;background:#ffc903;border-radius: 28px;float: left;font-size: 28px;text-align: center;line-height: 57px;}
@@ -19,9 +21,10 @@
     .content1{font-size:14px;line-height: 18px;}
 	.content2{position: absolute;left: 10px;}
 	.best1{position: absolute;left: 14px;}
-	.content3{position: absolute;left: 14px;line-height: 10px;}
+	.content3{position: absolute;left: 14px;bottom: 32px;}
+    .calling-text{margin: 4px 4px;}
 	.appoint1{margin-left: 105px;position: relative;}
-	.appoint1 img{width:24px;height:20px;float: left;position: absolute;left: 0px;top: 35px;margin-left: 23px;}
+	.appoint1 img{width:24px;height:20px;float: left;position: absolute;left: 20px;top: 35px;}
     .appoint2{margin-left: 240px;padding-top: 10px;}
     .list li {margin-left: 10px;}
     .address img{margin-left: 5px;}
@@ -43,7 +46,54 @@
     .images img{margin-left: 5px;float: left;}
     .copyright p{padding-top: 10px;}
 }
-	
+
+@media screen and (min-width:576px) and (max-width:767px){
+    .questions1{text-align: center;margin-left: 30px;}
+	.image{padding-bottom: 10px;}
+	.email1{position: relative;}
+	.image1 img{position: absolute;top:3px;left: 35px;}
+	.image1 span{position: absolute;left:56px;}
+	.email1{position: relative;}
+	.img-detail1{position: absolute;right: 160px;}
+	.img-detail1 img{margin-left: 16px;}
+    .detail{padding-bottom: 15px;}
+	.menu{padding-top: 10px;padding-bottom: 10px;line-height:30px;}
+	.menu1{text-align: center;padding-top: 10px;padding-bottom: 10px;}
+	.menu2 li a{font-size: 12px;margin-left: 22px;}
+	.abt-sumire img{margin-top: -42px;}
+	.sumire2{padding-top: 32px;}
+	.circle{width: 50px;height:50px;background:#ffc903;border-radius: 28px;float: left;font-size: 28px;text-align: center;line-height: 57px;}
+    .content{position: relative;padding-top:0px;}
+    .content1{font-size:14px;line-height: 18px;}
+	.content2{position: absolute;left: 10px;}
+	.best1{position: absolute;left: 14px;}
+	.content3{position: absolute;left: 14px;line-height: 100px;}
+    /* .calling-div i{line-height: 6px;} */
+    .calling-text{margin:4px 4px;}
+	.appoint1{margin-left: 30px;position: relative;}
+	.appoint1 img{width: 24px;margin-left: 24px;}
+	.box{width: 100%;height: 45px;line-height: 42px;font-size: 18px;background:#ffc903;color: #fff;text-align: center;font-weight:700;}
+    /*.appoint2{margin-left: 165px;padding-top: 10px;}*/
+    .list li {margin-left: 10px;}
+    .address img{margin-left: 5px;}
+    .address h4{float: left;margin-left: 14px;font-size: 22px;font-weight: 600;line-height: 40px;}
+    .address p{margin-left: 6px;font-size: 13px;color: #e2e0e0;margin-top: 7px;}
+    .phone{position: relative;}
+    .img2{position: absolute;left: 5px;top: 50px;}
+    .header{position: absolute;left: 30px;top: 52px}
+    .para2{position: absolute;left: 225px;top: 23px;}
+    .email{position: relative;}
+    .img3{position: absolute;right: 458px;top: 31px;}
+    .email .header1{text-align: left;}
+    .para3{}
+    .wrapper2{background-color: black;padding-top:65px;padding-bottom:80px;}
+    .social{position: relative;}
+    .social2{position: absolute;right: 810px;}
+    .social2 h4{float: left;}
+    .images{float: left;margin-top: -29px;}
+    .images img{margin-left: 5px;float: left;}
+    .copyright p{padding-top: 10px;}
+}
 
 @media screen and (max-width:575px){
 	.questions1{text-align: center;margin-left: 30px;}
@@ -65,10 +115,13 @@
     .content1{font-size:14px;line-height: 18px;}
 	.content2{position: absolute;left: 10px;}
 	.best1{position: absolute;left: 14px;}
-	.content3{position: absolute;left: 14px;line-height: 10px;}
+	.content3{position: absolute;left: 14px;line-height: 60px;}
+    .calling-div i{margin: 10px 0;}
+    .calling-text{margin:4px 4px;}
 	.appoint1{margin-left: 30px;position: relative;}
 	.appoint1 img{width: 24px;margin-left: 24px;}
-    .appoint2{margin-left: 165px;padding-top: 10px;}
+	.box{width: 100%;height: 45px;line-height: 42px;font-size: 18px;background:#ffc903;color: #fff;text-align: center;font-weight:700;}
+    /*.appoint2{margin-left: 165px;padding-top: 10px;}*/
     .list li {margin-left: 10px;}
     .address img{margin-left: 5px;}
     .address h4{float: left;margin-left: 14px;font-size: 22px;font-weight: 600;line-height: 40px;}
@@ -80,7 +133,6 @@
     .email{position: relative;}
     .img3{position: absolute;right: 458px;top: 31px;}
     .email .header1{text-align: left;}
-    .para3{}
     .wrapper2{background-color: black;padding-top:65px;padding-bottom:80px;}
     .social{position: relative;}
     .social2{position: absolute;right: 810px;}
